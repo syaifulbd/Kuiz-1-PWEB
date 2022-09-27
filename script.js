@@ -62,17 +62,27 @@ const displayProvinsi = (options) => {
 displayProvinsi(namaProvinsi);
 
 function gas() {
+    var n=document.getElementById("nama").value;
+    var e=document.getElementById("email").value;
+    var k = document.getElementById("kodepos").value;
+    var s = document.getElementById("sponsor");
+    var n2 = document.getElementById("namap");
+    var c = document.getElementById("cp");
+    var t = document.getElementById("telepon").value;
+    var t2 = document.getElementById("telpcp");
+    var e2 = document.getElementById("emailp");
+    
     var letters = /^[A-Za-z]+$/;  
     var email_val = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     var num = /^[0-9]+$/;
 
-    if(!letters.test(nama, namap, cp)) {
+    if(!letters.test(n, n2, c)) {
         alert('Name is incorrect must contain alphabets only');
     }
-    else if(!email_val.test(email, emailp)) {
+    else if(!email_val.test(e, e2)) {
         alert('Invalid Email format please enter valid email');
     }
-    else if (!num.test(telepon, telpcp, kodepos)) {
+    else if (!num.test(t, t2, k)) {
         alert('Invalid format! Telepon, Telp. Kontak Personal, and Kode Pos must contain number only')
     }
     else {
