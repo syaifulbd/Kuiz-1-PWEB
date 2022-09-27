@@ -1,0 +1,86 @@
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 55px;
+    box-sizing: border-box;
+
+    background-color:  #D0B8A8;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+    font: bold 14px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+form .form-item {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form .title {
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    color:  white;
+    font-size: 30px;
+    padding: 0 10px 10px;
+}
+
+form .subtitle {
+    text-align: start;
+    margin-bottom: 20px;
+    color:  white;
+    font-size: 20px;
+    padding: 0 10px 15px;
+}
+
+form .form-item span {
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    width: 180px;
+    text-align: left;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+form .form-item input {
+    color:  black;
+    box-sizing: border-box;
+    width: 360px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+}
+
+form .form-item select {
+    background-color: #ffffff;
+    color:  black;
+    box-sizing: border-box;
+    width: 360px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+}
+
+.datasponsor {
+    padding-top: 35px;
+}
+
+.submitbutton button {
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    background-color:  #DFD3C3;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
