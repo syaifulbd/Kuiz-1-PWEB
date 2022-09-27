@@ -61,7 +61,7 @@ const displayProvinsi = (options) => {
 
 displayProvinsi(namaProvinsi);
 
-function submit_form() {
+function gas() {
     var letters = /^[A-Za-z]+$/;  
     var email_val = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     var num = /^[0-9]+$/;
